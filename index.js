@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         certificateContent.innerHTML = `
             <h3>${studentName}</h3>
             <p>${personalMessage}</p>
+            <p>Course: ${courseName}</p>
             <img src="logo.png" alt="logo" style="width: 100px; height: auto;">
         `;
 
